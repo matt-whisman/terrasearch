@@ -1,0 +1,24 @@
+{
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=80",
+        "--ignore=E501"
+    ],
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--max-line-length=80"
+    ],
+    "html.format.templating": true,
+}
+// {
+//     "python.formatting.provider": "none",
+//     "python.linting.enabled": false,
+//     "python.linting.flake8Args": [
+//         "--maxline-length=120",
+//         "--ignore=E501",
+//         "--ignore=F401",
+//         "--ignore=E302",
+//     ],
+// }
